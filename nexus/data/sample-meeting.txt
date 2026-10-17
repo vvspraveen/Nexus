@@ -1,0 +1,19 @@
+Fleet Insights Weekly Sync — Oct 13, 2026
+Attendees: Priya Raman, David Okafor, Maria Chen, Tom Becker, Leo Park
+
+Priya: Okay, let's start. Private beta is October 31st. Where are we on the battery telemetry pipeline?
+David: Firmware v4.2 is still slipping. Realistically it lands on October 24th, which leaves us one week for integration testing.
+Priya: That's tight. Can we ship the beta without battery health and add it in the first update?
+Leo: Yes, the dashboard works without it. Uptime and pick rates are ready.
+Priya: Then let's go with that. We agreed to launch the private beta on Oct 31 without battery health, and add it in the November update.
+Tom: One concern — two of the design partners, Umbrella and Wayne Freight, have EU fleets. We still don't have a data residency answer. That's a blocker for them.
+Priya: Can we just onboard the three US partners first?
+Tom: That works for now. I'll draft the EU data residency proposal by Friday.
+Maria: On pricing — finance needs the usage tiers before we can model revenue. Leo, can you send me the usage tiers by Wednesday?
+Leo: Sure, I'll send the usage tier breakdown to Maria by Wednesday.
+David: I will set up the integration test environment for firmware v4.2 by October 20th.
+Priya: Great. Leo, please also prepare the beta onboarding deck for the design partners by next Monday.
+Maria: Do we know if the beta is free or paid for design partners?
+Priya: Good question, we haven't decided. Let's park that for next week.
+Tom: Risk to flag: if firmware slips past the 24th, the November update also slips.
+Priya: Noted. Decision: we will hold a go/no-go review on October 28th. Thanks everyone.

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nexus — AI Work OS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%235b5bf6'/><path d='M9 23V9l14 14V9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo"><svg viewBox="0 0 32 32"><path d="M9 23V9l14 14V9" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div><div class="brand-name">Nexus</div><div class="brand-sub">AI Work OS</div></div>
+    </div>
+    <nav id="nav">
+      <a data-view="ask" class="active"><span class="ic">✦</span>Ask<kbd>⌘K</kbd></a>
+      <a data-view="meetings"><span class="ic">◉</span>Meetings</a>
+      <a data-view="autopilot"><span class="ic">⚡</span>Autopilot</a>
+      <a data-view="tasks"><span class="ic">☑</span>Tasks<span class="count" id="taskCount"></span></a>
+      <a data-view="knowledge"><span class="ic">▤</span>Knowledge<span class="count" id="docCount"></span></a>
+      <a data-view="impact"><span class="ic">↗</span>Impact</a>
+    </nav>
+    <div class="sidebar-foot">
+      <div class="saved-card">
+        <div class="saved-label">Time saved so far</div>
+        <div class="saved-value" id="savedValue">0 min</div>
+      </div>
+      <div class="mode" id="mode"><span class="dot"></span><span id="modeText">Connecting…</span></div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ASK -->
+    <section class="view active" id="view-ask">
+      <div class="ask-layout">
+        <div class="ask-main">
+          <div id="thread" class="thread">
+            <div class="hero" id="askHero">
+              <h1>Ask anything about how your company works.</h1>
+              <p>Answers are grounded in your documents, cite their sources, and <b>flag when documents disagree</b>.</p>
+              <div class="chips" id="suggestions"></div>
+            </div>
+          </div>
+          <form id="askForm" class="composer">
+            <input id="askInput" placeholder="e.g. What's the daily meal allowance when travelling?" autocomplete="off">
+            <button class="btn primary" type="submit">Ask</button>
+          </form>
+        </div>
+        <aside class="sources" id="sources">
+          <div class="panel-title">Sources</div>
+          <div id="sourceList" class="muted small">Sources used for each answer appear here.</div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- MEETINGS -->
+    <section class="view" id="view-meetings">
+      <header class="view-head">
+        <div><h2>Meeting Intelligence</h2><p>Paste a transcript. You get decisions, owners, deadlines and risks, and Nexus checks the meeting against your docs.</p></div>
+      </header>
+      <div class="meeting-input card">
+        <textarea id="transcript" rows="9" placeholder="Paste a meeting transcript (Zoom, Teams, Meet export…)"></textarea>
+        <div class="row">
+          <button class="btn ghost" id="loadSample">Load sample transcript</button>
+          <span class="spacer"></span>
+          <button class="btn primary" id="analyze">Analyze meeting</button>
+        </div>
+      </div>
+      <div id="meetingOut"></div>
+    </section>
+
+    <!-- AUTOPILOT -->
+    <section class="view" id="view-autopilot">
+      <header class="view-head">
+        <div><h2>Autopilot</h2><p>Describe an outcome. The agent reads company policy, creates the tasks and drafts the emails, and you can watch every step.</p></div>
+      </header>
+      <form id="goalForm" class="composer big">
+        <input id="goalInput" placeholder="e.g. Onboard Priya Shah as a backend engineer starting Monday" autocomplete="off">
+        <button class="btn primary" type="submit">Run</button>
+      </form>
+      <div class="chips" id="goalChips"></div>
+      <div id="trace" class="trace"></div>
+    </section>
+
+    <!-- TASKS -->
+    <section class="view" id="view-tasks">
+      <header class="view-head">
+        <div><h2>Tasks</h2><p>Everything Nexus created from meetings, answers and Autopilot runs. Click a card to move it forward.</p></div>
+      </header>
+      <div class="board" id="board"></div>
+      <h3 class="section-title">Email drafts</h3>
+      <div id="emails" class="emails"></div>
+    </section>
+
+    <!-- KNOWLEDGE -->
+    <section class="view" id="view-knowledge">
+      <header class="view-head">
+        <div><h2>Knowledge</h2><p>Documents Nexus can search. Add policies, wikis, specs or notes as .md or .txt files, or paste text.</p></div>
+        <button class="btn primary" id="addDocBtn">+ Add document</button>
+      </header>
+      <div class="doc-grid" id="docGrid"></div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="view" id="view-impact">
+      <header class="view-head">
+        <div><h2>Impact</h2><p>Measured productivity gains this session. Estimates use conservative per-action time savings.</p></div>
+        <button class="btn ghost" id="resetBtn">Reset demo data</button>
+      </header>
+      <div class="kpis" id="kpis"></div>
+      <div class="impact-grid">
+        <div class="card"><div class="panel-title">Time saved by capability</div><div id="bars"></div></div>
+        <div class="card"><div class="panel-title">Activity</div><div id="activity" class="activity"></div></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="modal"><div id="modalBody"></div></dialog>
+  <div id="toast" class="toast"></div>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

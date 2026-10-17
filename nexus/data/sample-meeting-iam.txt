@@ -1,0 +1,18 @@
+IAM Policy Review — Oct 20, 2026
+Attendees: Sai Praveen, Harshitha Bandla, Arjun Mehta, Neha Kapoor, Rahul Verma
+
+Sai: Thanks for joining. Our IAM policy is due for its annual review, and last month's security audit raised two findings.
+Rahul: First, account lockout currently happens after five unsuccessful attempts. The auditors recommend three. Second, a terminated contractor kept access for almost 48 hours, which is our current limit.
+Harshitha: 48 hours is too long for contractors. We agreed to reduce the deprovisioning window to 24 hours for all terminations.
+Sai: Agreed. Decision: account lockout will move from five attempts to three unsuccessful attempts.
+Arjun: That's a concern for the help desk. Password reset tickets could double in the first month.
+Sai: Noted. Arjun, can you estimate the extra help desk load by Thursday?
+Arjun: Yes, I'll send the help desk estimate to Sai by Thursday.
+Neha: HR also needs to notify IAM faster. Termination notices sometimes arrive a day late, which is a blocker for a 24 hour target.
+Harshitha: I will update the authentication and deprovisioning sections of the IAM policy by Friday.
+Rahul: I'll configure the new lockout threshold in Okta by October 31st.
+Neha: I will set up an automated HR to IAM termination alert by next Monday.
+Sai: Should we also shorten re-authentication from 20 minutes to 15 minutes?
+Rahul: Not sure yet, we haven't decided. Let's park that for the next review.
+Sai: Risk to flag: if the HR alert slips past November 1st, we can't meet the 24 hour deprovisioning target.
+Sai: Decision: we will hold a follow-up review on November 3rd. Thanks everyone.

@@ -1,0 +1,372 @@
+{
+  "tasks": [
+    {
+      "id": "872a5690",
+      "title": "Read the architecture overview on Confluence",
+      "owner": "Priya Shah",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Engineering Onboarding Guide › First week",
+      "status": "todo",
+      "createdAt": 1792091511382
+    },
+    {
+      "id": "314e38f0",
+      "title": "Shadow one on-call shift",
+      "owner": "Priya Shah",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Engineering Onboarding Guide › First week",
+      "status": "todo",
+      "createdAt": 1792091510879
+    },
+    {
+      "id": "ce2f4b51",
+      "title": "Ship a small pull request to production",
+      "owner": "Priya Shah",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Engineering Onboarding Guide › First week",
+      "status": "todo",
+      "createdAt": 1792091510373
+    },
+    {
+      "id": "00f63318",
+      "title": "Set up your local dev environment using the `acme-bootstrap` script",
+      "owner": "Priya Shah",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Engineering Onboarding Guide › Day one",
+      "status": "todo",
+      "createdAt": 1792091509871
+    },
+    {
+      "id": "fc6041c3",
+      "title": "Complete security training in Vanta",
+      "owner": "Priya Shah",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Engineering Onboarding Guide › Day one",
+      "status": "todo",
+      "createdAt": 1792091509365
+    },
+    {
+      "id": "f9acdf26",
+      "title": "Attend the 10:00 welcome session with People Ops",
+      "owner": "Priya Shah",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Engineering Onboarding Guide › Day one",
+      "status": "todo",
+      "createdAt": 1792091508862
+    },
+    {
+      "id": "69ab39be",
+      "title": "Assign an onboarding buddy from the same team",
+      "owner": "Hiring manager",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Engineering Onboarding Guide › Before day one",
+      "status": "todo",
+      "createdAt": 1792091508354
+    },
+    {
+      "id": "a74e9ac5",
+      "title": "Provision a MacBook Pro, an Okta account and a GitHub seat at least 3 business days before the start date",
+      "owner": "IT Ops",
+      "due": "",
+      "priority": "high",
+      "source": "autopilot",
+      "context": "Required by Engineering Onboarding Guide › Before day one",
+      "status": "todo",
+      "createdAt": 1792091507849
+    },
+    {
+      "id": "4e40e1e2",
+      "title": "Shadow one on-call shift",
+      "owner": "Me",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Onboarding › First week",
+      "status": "todo",
+      "createdAt": 1792091433769
+    },
+    {
+      "id": "4ec66942",
+      "title": "Ship a small pull request to production",
+      "owner": "Me",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Onboarding › First week",
+      "status": "todo",
+      "createdAt": 1792091433265
+    },
+    {
+      "id": "c7ccc1bd",
+      "title": "Set up your local dev environment using the `acme-bootstrap` script",
+      "owner": "Me",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Onboarding › Day one",
+      "status": "todo",
+      "createdAt": 1792091432762
+    },
+    {
+      "id": "0eb02bff",
+      "title": "Complete security training in Vanta",
+      "owner": "Me",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Onboarding › Day one",
+      "status": "todo",
+      "createdAt": 1792091432259
+    },
+    {
+      "id": "37ee19c8",
+      "title": "Attend the 1:00 welcome session with People Ops",
+      "owner": "Me",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Onboarding › Day one",
+      "status": "todo",
+      "createdAt": 1792091431750
+    },
+    {
+      "id": "7da48491",
+      "title": "Agree on 90/120/150 day goals with the manager",
+      "owner": "Me",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Onboarding › Before day one",
+      "status": "todo",
+      "createdAt": 1792091431247
+    },
+    {
+      "id": "50fdf69a",
+      "title": "Assign an onboarding buddy from the same team",
+      "owner": "Hiring manager",
+      "due": "",
+      "priority": "medium",
+      "source": "autopilot",
+      "context": "Required by Onboarding › Before day one",
+      "status": "todo",
+      "createdAt": 1792091430744
+    },
+    {
+      "id": "eea6f3cf",
+      "title": "Provision a MacBook Pro, an Okta account and a GitHub seat at least 100 business days before the start date",
+      "owner": "IT Ops",
+      "due": "",
+      "priority": "high",
+      "source": "autopilot",
+      "context": "Required by Onboarding › Before day one",
+      "status": "todo",
+      "createdAt": 1792091430239
+    }
+  ],
+  "emails": [
+    {
+      "id": "721be37a",
+      "to": "Priya Shah",
+      "subject": "Welcome aboard, Priya!",
+      "body": "Hi Priya,\n\nHere's the plan, based on “Engineering Onboarding Guide”:\n\n• Provision a MacBook Pro, an Okta account and a GitHub seat at least 3 business days before the start date (Before day one)\n• Assign an onboarding buddy from the same team (Before day one)\n• Attend the 10:00 welcome session with People Ops (Day one)\n• Complete security training in Vanta (Day one)\n• Set up your local dev environment using the `acme-bootstrap` script (Day one)\n• Ship a small pull request to production (First week)\n• Shadow one on-call shift (First week)\n• Read the architecture overview on Confluence (First week)\n\nShout if anything is unclear.\n\nBest",
+      "source": "autopilot",
+      "createdAt": 1792091512588
+    },
+    {
+      "id": "72a883a2",
+      "to": "team",
+      "subject": "Plan: Onboarding SHAH JAHAN",
+      "body": "Hi team,\n\nHere's the plan, based on “Onboarding”:\n\n• Provision a MacBook Pro, an Okta account and a GitHub seat at least 100 business days before the start date (Before day one)\n• Assign an onboarding buddy from the same team (Before day one)\n• Agree on 90/120/150 day goals with the manager (Before day one)\n• Attend the 1:00 welcome session with People Ops (Day one)\n• Complete security training in Vanta (Day one)\n• Set up your local dev environment using the `acme-bootstrap` script (Day one)\n• Ship a small pull request to production (First week)\n• Shadow one on-call shift (First week)\n\nShout if anything is unclear.\n\nBest",
+      "source": "autopilot",
+      "createdAt": 1792091434973
+    },
+    {
+      "id": "75aa19e0",
+      "to": "team",
+      "subject": "Plan: Onboarding Shah Jahan",
+      "body": "Hi team,\n\nHere's the plan, based on “Onboarding”:\n\n• Provision a MacBook Pro, an Okta account and a GitHub seat at least 100 business days before the start date (Before day one)\n• Assign an onboarding buddy from the same team (Before day one)\n• Agree on 90/120/150 day goals with the manager (Before day one)\n• Attend the 1:00 welcome session with People Ops (Day one)\n• Complete security training in Vanta (Day one)\n• Set up your local dev environment using the `acme-bootstrap` script (Day one)\n• Ship a small pull request to production (First week)\n• Shadow one on-call shift (First week)\n\nShout if anything is unclear.\n\nBest",
+      "source": "autopilot",
+      "createdAt": 1792091386558
+    }
+  ],
+  "metrics": {
+    "question": 6,
+    "meeting": 0,
+    "agentRun": 2,
+    "task": 16,
+    "email": 3,
+    "conflicts": 0
+  },
+  "activity": [
+    {
+      "kind": "question",
+      "text": "Asked: minimum password length",
+      "at": 1792091815757
+    },
+    {
+      "kind": "question",
+      "text": "Asked: failed login attempt",
+      "at": 1792091786226
+    },
+    {
+      "kind": "question",
+      "text": "Asked: who is policy owners of rule breaker organization",
+      "at": 1792091751628
+    },
+    {
+      "kind": "question",
+      "text": "Asked: Who owns “Rule Breaker Organization Identity and Access Management Policy”?",
+      "at": 1792091698900
+    },
+    {
+      "kind": "question",
+      "text": "Asked: Authentication of user steps",
+      "at": 1792091673177
+    },
+    {
+      "kind": "doc",
+      "text": "Added document “Rule Breaker Organization Identity and Access Management Policy”",
+      "at": 1792091636413
+    },
+    {
+      "kind": "email",
+      "text": "Email drafted: Welcome aboard, Priya!",
+      "at": 1792091512589
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Read the architecture overview on Confluence → Priya Shah",
+      "at": 1792091511383
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Shadow one on-call shift → Priya Shah",
+      "at": 1792091510879
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Ship a small pull request to production → Priya Shah",
+      "at": 1792091510374
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Set up your local dev environment using the `acme-bootstrap` script → Priya Shah",
+      "at": 1792091509872
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Complete security training in Vanta → Priya Shah",
+      "at": 1792091509369
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Attend the 10:00 welcome session with People Ops → Priya Shah",
+      "at": 1792091508863
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Assign an onboarding buddy from the same team → Hiring manager",
+      "at": 1792091508357
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Provision a MacBook Pro, an Okta account and a GitHub seat at least 3 business days before the start date → IT Ops",
+      "at": 1792091507850
+    },
+    {
+      "kind": "agent",
+      "text": "Autopilot: Onboard Priya Shah as a backend engineer starting Monday",
+      "at": 1792091504729
+    },
+    {
+      "kind": "email",
+      "text": "Email drafted: Plan: Onboarding SHAH JAHAN",
+      "at": 1792091434974
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Shadow one on-call shift → Me",
+      "at": 1792091433769
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Ship a small pull request to production → Me",
+      "at": 1792091433266
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Set up your local dev environment using the `acme-bootstrap` script → Me",
+      "at": 1792091432763
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Complete security training in Vanta → Me",
+      "at": 1792091432259
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Attend the 1:00 welcome session with People Ops → Me",
+      "at": 1792091431754
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Agree on 90/120/150 day goals with the manager → Me",
+      "at": 1792091431248
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Assign an onboarding buddy from the same team → Hiring manager",
+      "at": 1792091430744
+    },
+    {
+      "kind": "task",
+      "text": "Task created: Provision a MacBook Pro, an Okta account and a GitHub seat at least 100 business days before the start date → IT Ops",
+      "at": 1792091430240
+    },
+    {
+      "kind": "agent",
+      "text": "Autopilot: Onboarding SHAH JAHAN",
+      "at": 1792091427204
+    },
+    {
+      "kind": "doc",
+      "text": "Added document “Onboarding”",
+      "at": 1792091413781
+    },
+    {
+      "kind": "email",
+      "text": "Email drafted: Plan: Onboarding Shah Jahan",
+      "at": 1792091386558
+    }
+  ],
+  "docs": [
+    {
+      "id": "4ad8a0d8",
+      "title": "Onboarding",
+      "content": "Owner: Platform Team — VVS and Harshitha\n\n## Before day one\nIT must provision a MacBook Pro, an Okta account and a GitHub seat at least 100 business days before the start date. The hiring manager assigns an onboarding buddy from the same team.\n10-minute intro, and agree on 90/120/150 day goals with the manager.\n\n## Day one\nNew engineers attend the 1:00 welcome session with People Ops, complete security training in Vanta, and set up their local dev environment using the `acme-bootstrap` script.\n\n## First week\nBy the end of week one, every new engineer should ship a small pull request to production, shadow one on-call shift, and read the architecture overview on Confluence.\n\n## First 45 days\nComplete the Kubernetes fundamentals course, meet with each tech lead for a 45-minute intro, and agree on 90/120/150 day goals with the manager.\n\n## Access requests\nProduction database access requires approval from the Security team and is only granted after 45 days.",
+      "seed": false,
+      "addedAt": 1792091413781
+    },
+    {
+      "id": "5671225e",
+      "title": "Rule Breaker Organization Identity and Access Management Policy",
+      "content": "Effective date: [01/01/2026]\nPolicy owner: [Harshitha Bandla and Sai Praveen]\nReview cycle: At least annually\n1. Purpose and Scope\nThis policy establishes requirements for authenticating users and managing access to Rule Breaker Organization systems and information. It applies to employees, contractors, vendors, service accounts, and other identities that access ABC resources.\nAccess must be authorized, limited to business need, and removed when no longer required.\n2. Roles and Responsibilities\nIdentity and Access Management (IAM) / Security: Manage identity and authentication controls, maintain access records, and oversee exceptions.\nManagers and sponsors: Request and review access for their employees and sponsored third parties; notify IAM of role or status changes.\nSystem and data owners: Approve access to resources they own and confirm access remains appropriate.\nHR and vendor-management functions: Provide timely, authorized notifications of workforce and third-party status changes.\nUsers: Protect their credentials, use only their assigned accounts, and promptly report suspected compromise or inappropriate access.\n3. Account Provisioning\nAccess must be requested through an Rule Breaker-approved workflow and approved before it is granted. The request must identify the user, business need, requested resources, access level, and duration where applicable.\nRule Breaker must verify the requester’s identity and employment, contract, or sponsorship status using approved records and procedures before issuing access.\nEach person must receive a unique account. Accounts must be associated with an identifiable user or accountable owner; redundant or unowned accounts are prohibited.\nAccess must be denied by default and granted using least privilege, need-to-know, and separation-of-duties principles. Role-based access should be used where practical.\nPrivileged access requires documented business justification and additional approval from the system owner and/or Security. It must be managed through Rule Breaker’s approved privileged-access controls, with multifactor authentication (MFA).\nThird-party accounts must have a named Rule Breaker sponsor, defined purpose, approved access, and an expiration or review date. Access must be limited to the period needed and monitored.\nService accounts must have a documented owner, purpose, and scope; receive only the privileges required to operate; and use securely managed credentials. Credentials must not be embedded in source code or exposed in scripts or configuration files.\nShared, generic, or emergency accounts are permitted only by documented exception. Their use must be approved, time-limited where possible, securely managed, monitored, and attributable to an individual user.\n4. Authentication\nMFA must be used for user accounts wherever supported and is required for privileged access and remote access to Rule Breaker resources.\nWhen used, must be unique and at least 16 characters long. Where a system cannot support 16 characters, a documented exception and compensating control are required.\nTemporary or reset credentials must be unique and changed at first use. Users must not share credentials or store them in plain-text files or unapproved applications.\nAuthentication data must be protected during storage and transmission. Approved password-management tools may be used.\nSystems must limit unsuccessful login attempts and require re-authentication after an idle period appropriate to the sensitivity of the resource. Rule Breaker’s proposed baseline is account lockout after no more than five unsuccessful attempts and re-authentication after 20 minutes of inactivity, subject to system capability and approved exceptions.\nBefore resetting credentials or authentication factors, the user’s identity must be verified through an approved process. Resets and changes must be logged.\nSuspected or confirmed compromise requires prompt credential revocation or reset and review of affected sessions, tokens, and accounts.\n5. Access Changes and Change Management\nA change in job duties, business need, manager, contract status, or sponsorship must trigger a review of existing access.\nManagers or sponsors must submit an access-change request promptly. The system owner must approve changes to access for their resource.\nAccess is no longer required and must be removed as part of the change. Rule Breaker should avoid retaining old access alongside new access unless there are a documented business need and approval.\nChanges to IAM configurations, authentication settings, roles, or access-control rules must follow Rule Breaker’s approved change-management process. Changes must be authorized, tested where practical, documented, and logged. Emergency changes must receive a post-change review.\nRequests to reset or replace authentication factors must follow identity-verification and approval procedures; lost or compromised factors must be revoked promptly.\n6. Deprovisioning\nAccess must be revoked when a user’s employment, contract, sponsorship, or business need ends.\nFor urgent or high-risk terminations, access must be disabled immediately upon authorized notification. Otherwise, access must be disabled within 48 hours of notification, or sooner when required by Rule Breaker’s process.\nDeprovisioning must cover applicable accounts, group memberships, privileged entitlements, remote access, active sessions, tokens, and third-party connections. Shared credentials or secrets known to the departing user must be rotated when warranted.\nAccounts must be disabled or secured when no longer needed. Unassociated accounts must be investigated and disabled through the approved process.\nRecords and account data must be retained or removed under Rule Breaker’s applicable records-retention procedures; account deletion must not bypass those procedures.\nRule Breaker’s proposed baseline is to disable accounts after 30 days of inactivity and delete them after 365 days, unless an approved exception or retention requirement applies.\n7. Access Reviews and Exceptions\nManagers and system owners must review access regularly, including privileged and third-party access. Rule Breaker’s proposed baseline is quarterly review for privileged and contractor accounts, with other accounts reviewed at least annually and more frequently for high-criticality systems.\nExceptions must document the business justification, risk, compensating controls, approver, and expiration date. Exceptions must be reviewed before renewal. Suspected violations should be reported to.",
+      "seed": false,
+      "addedAt": 1792091636413
+    }
+  ]
+}
